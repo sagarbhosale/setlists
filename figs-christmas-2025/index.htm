@@ -49,6 +49,17 @@
         input:checked ~ .toggle-dot {
             transform: translateX(1.5rem); /* translate-x-6 */
         }
+        
+        /* Callout Styles */
+        .callout {
+            color: #ef4444; /* red-500 */
+            font-weight: 800;
+            font-style: italic;
+            margin-left: 0.5rem;
+        }
+        
+        .callout::before { content: "("; }
+        .callout::after { content: ")"; }
     </style>
 </head>
 <body class="min-h-screen py-10 px-4 md:px-8 relative">
@@ -100,32 +111,32 @@
                     Comet and Cupid<br />
                     And Donner and Blitzen<br />
                     But do you recall<br />
-                    The most famous reindeer of all
+                    The most famous reindeer of all?
                 </p>
 
                 <p>
                     Rudolph the red-nosed reindeer<br />
-                    Had a very shiny nose<br />
+                    Had a very shiny nose <span class="callout">like a light bulb!</span><br />
                     And if you ever saw it<br />
-                    You would even say it glows <span class="text-red-500 font-bold">(Shiny nose)</span>
+                    You would even say it glows <span class="callout">like a flashlight!</span>
                 </p>
                 <p class="mt-4">
                     All of the other reindeer<br />
-                    Used to laugh and call him names<br />
+                    Used to laugh and call him names <span class="callout">like Pinocchio!</span><br />
                     They never let poor Rudolph<br />
-                    Join in any reindeer games <span class="text-red-500 font-bold">(Oh NOOOO)</span>
+                    Join in any reindeer games <span class="callout">like Monopoly!</span>
                 </p>
                 <p class="mt-4">
                     Then one foggy Christmas Eve<br />
-                    Santa came to say <span class="text-green-600 font-bold">(HO HO HO)</span><br />
+                    Santa came to say <span class="callout text-green-600">HO HO HO!</span><br />
                     Rudolph, with your nose so bright<br />
                     Won't you guide my sleigh tonight?
                 </p>
                 <p class="mt-4">
                     Then how the reindeer loved him<br />
-                    As they shouted out with glee <span class="text-red-500 font-bold">(GO Rudolf)</span><br />
+                    As they shouted out with glee <span class="callout">Yippee!</span><br />
                     Rudolph the red-nosed reindeer<br />
-                    You'll go down in history!
+                    You'll go down in history <span class="callout">like George Washington!</span>
                 </p>
             </div>
         </div>
@@ -151,32 +162,72 @@
                 <p>
                     I don't want a lot for Christmas<br />
                     There is just one thing I need<br />
-                    I don't care about the presents<br />
+                    <span class="text-red-400 italic">(and I...)</span> I don't care about the presents<br />
                     Underneath the Christmas tree
                 </p>
                 <p class="mt-4">
-                    I just want you for my own<br />
-                    More than you could ever know<br />
-                    Make my wish come true<br />
-                    All I want for Christmas is you...
+                    I don't need to hang my stocking<br />
+                    There upon the fireplace<br />
+                    <span class="text-red-400 italic">(I...)</span> Santa Claus won't make me happy<br />
+                    With a toy on Christmas day
                 </p>
                 <p class="mt-4">
-                    I won't ask for much this Christmas<br />
+                    I just want you for my own <span class="text-red-400 italic">(ooh...)</span><br />
+                    More than you could ever know<br />
+                    Make my wish come true<br />
+                    All I want for Christmas is you<br />
+                    You, baby
+                </p>
+                <p class="mt-4">
+                    Oh, I won't ask for much this Christmas<br />
                     I won't even wish for snow<br />
-                    And I'm just gonna keep on waiting<br />
+                    <span class="text-red-400 italic">(and I...)</span> I'm just gonna keep on waiting<br />
                     Underneath the mistletoe
                 </p>
                 <p class="mt-4">
                     I won't make a list and send it<br />
                     To the North Pole for Saint Nick<br />
-                    I won't even stay awake to<br />
+                    <span class="text-red-400 italic">(I...)</span> I won't even stay awake to<br />
                     Hear those magic reindeer click
                 </p>
                 <p class="mt-4">
                     'Cause I just want you here tonight<br />
                     Holding on to me so tight<br />
                     What more can I do?<br />
-                    Baby, all I want for Christmas is you
+                    Oh baby, all I want for Christmas is<br />
+                    You<br />
+                    You, baby
+                </p>
+                <p class="mt-4">
+                    <span class="text-red-400 italic">(Oooh)</span> All the lights are shining<br />
+                    So brightly everywhere<br />
+                    <span class="text-red-400 italic">(Ooh...)</span> And the sound of children's<br />
+                    Laughter fills the air<br />
+                    <span class="text-red-400 italic">(Ahh...)</span> And everyone is singing<br />
+                    I hear those sleigh bells ringing<br />
+                    Santa won't you bring me the one I really need<br />
+                    Won't you please bring my baby to me...
+                </p>
+                <p class="mt-4">
+                    Oh, I don't want a lot for Christmas<br />
+                    This is all I'm asking for<br />
+                    <span class="text-red-400 italic">(I...)</span> I just want to see my baby<br />
+                    Standing right outside my door
+                </p>
+                <p class="mt-4">
+                    Oh, I just want you for my own<br />
+                    More than you could ever know<br />
+                    Make my wish come true<br />
+                    Oh baby, all I want for Christmas...<br />
+                    is...<br />
+                    You <span class="text-red-400 italic">(You, baby)</span>
+                </p>
+                <p class="mt-4">
+                    <span class="text-red-400 italic">(All I want for Christmas is you... baby)</span><br />
+                    <span class="text-red-400 italic">(All I want for Christmas is you... baby)</span><br />
+                    <span class="text-red-400 italic">(All I want for Christmas is you... baby)</span><br />
+                    <span class="text-red-400 italic">(All I want for Christmas is you... baby)</span><br />
+                    <span class="text-red-400 italic">(All I want for Christmas is you... baby)</span>
                 </p>
             </div>
         </div>
@@ -201,13 +252,13 @@
                 </div>
 
                 <!-- Toggle Switch -->
-                <label for="figs-toggle" class="flex items-center cursor-pointer select-none bg-gray-100 p-2 rounded-lg border border-gray-200 shadow-inner">
+                <label for="figs-toggle" class="flex items-center cursor-pointer select-none bg-gray-100 p-2 rounded-lg border border-gray-200 shadow-inner group">
                     <div class="relative">
                         <input type="checkbox" id="figs-toggle" class="sr-only">
                         <div class="toggle-bg block w-14 h-8 rounded-full bg-gray-400 transition-colors duration-300"></div>
                         <div class="toggle-dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition-transform duration-300"></div>
                     </div>
-                    <div class="ml-3 text-sm font-bold text-gray-700">
+                    <div class="ml-3 text-sm font-bold text-gray-700 group-hover:text-blue-600 transition-colors">
                         Enable FiGS Mode
                     </div>
                 </label>
@@ -256,33 +307,33 @@
                     <p>
                         It's beginning to look a lot like Christmas<br />
                         Everywhere you go<br />
-                        Take a look at the Fi Intent, increasing retention again<br />
-                        With Pixel 10s and Android, FiGS aglow
+                        Take a look at the <span class="text-blue-600 font-bold">Fi Intent</span>, climbing in percent<br />
+                        With Pixel 10s and Android stems aglow
                     </p>
                     <p class="mt-4">
                         It's beginning to look a lot like Christmas<br />
-                        Joy in Fi and Store<br />
-                        But the prettiest sight to see is the Pixels that will be<br />
-                        Sold in all gStore
+                        Trafffic in the <span class="text-blue-600 font-bold">Store</span><br />
+                        But the prettiest sight to see, is the bundle that will be<br />
+                        Shipped to your front door
                     </p>
                     <p class="mt-4">
                         To sell subscriptions in loads and Pixel Pro Folds<br />
                         Is the wish of Jasper and Dan<br />
-                        Phones with Fi also Gemini<br />
+                        Integrating Gemini into Google Fi<br />
                         Is the hope of Meaghan and Blair<br />
-                        And managers can hardly wait for GRAD to start again
+                        And managers can hardly wait for <span class="text-red-500 font-bold">GRAD</span> to start again
                     </p>
                     <p class="mt-4">
                         It's beginning to look a lot like Christmas<br />
                         Everywhere you go<br />
-                        Take a look at the Fi Intent, increasing retention again<br />
-                        With Pixel 10s and Android, FiGS aglow
+                        Take a look at the Fi Intent, climbing in percent<br />
+                        With Pixel 10s and Android stems aglow
                     </p>
                     <p class="mt-4">
                         It's beginning to look a lot like Christmas<br />
                         Joy in Fi and Store<br />
-                        But the prettiest sight to see is the Pixels that will be<br />
-                        Sold in all gStore
+                        But the prettiest sight to see is the Hardware Q3<br />
+                        Knocking at your door
                     </p>
                 </div>
             </div>
